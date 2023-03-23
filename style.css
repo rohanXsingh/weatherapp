@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding: 20px;
+    background-color: rgb(15, 5, 5);
+    font-family: 'Gill Sans';
+    
+}
+
+.bgcolor{
+    background-color: rgb(92, 225, 227);
+    padding: 10px;
+    border: 5px solid rgb(4, 92, 94);
+    border-radius: 20px;
+    
+    text-transform: uppercase;
+    font-family:sans-serif;
+    font-weight: bolder;
+}   
+.mainBody{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+
+.Heading{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    align-self: center;
+    text-transform: uppercase;
+}
+
+.list-group-item{
+    background: transparent;
+    background-color: rgb(191, 223, 221);
+    display: flex;
+    color: black;
+    border: 2px solid black;
+    
+}
+  
+.card:hover{
+    background-color:rgb(106, 230, 106);  
+}
+.infocont{
+    background-color: rgb(199, 199, 173);
+    height: 100px;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-transform: none;
+}
+.infocont:hover{
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
